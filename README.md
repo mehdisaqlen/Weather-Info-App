@@ -1,5 +1,7 @@
 # Weather Info App
 
+![Weather App](/public/weather-app.jpg/ "Weather App")
+
 A simple app built with Next.js.
 
 This app gives you information about the weather of any city you look for.
