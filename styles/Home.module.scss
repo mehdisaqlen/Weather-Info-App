@@ -1,0 +1,92 @@
+.container {
+  max-width: 650px;
+  margin: 20px auto;
+  padding: 50px 20px;
+  .inputController {
+    display: flex;
+    gap: 10px;
+
+    button {
+      background: #214a8588;
+      padding: 12px 20px;
+      border: none;
+      color: rgb(187, 229, 251);
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:focus {
+        outline: 4px solid rgba(255, 255, 255, 0.163);
+      }
+    }
+
+    .input {
+      width: 100%;
+      border: none;
+      background: #0c0925a1;
+      padding: 12px 20px;
+      border-radius: 5px;
+      color: rgb(187, 229, 251);
+      font-size: 18px;
+
+      &::placeholder {
+        color: rgb(187, 229, 251);
+        font-size: 18px;
+      }
+
+      &:focus {
+        outline: 4px solid rgba(255, 255, 255, 0.163);
+      }
+      &::placeholder {
+        color: rgb(100, 129, 183);
+      }
+    }
+  }
+
+  .box {
+    background: #0f0c2926;
+    text-align: left;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 30px 45px;
+    color: rgb(187, 229, 251);
+
+    .body {
+      margin-top: 20px;
+
+      .centerWrapper {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .city {
+        font-size: 28px;
+        font-weight: bolder;
+      }
+      h1 {
+        font-size: 80px;
+      }
+      .description {
+        display: flex;
+        justify-content: flex-start;
+        gap: 5px;
+        align-items: center;
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}
